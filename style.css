@@ -19,6 +19,7 @@ button#b {
   cursor: pointer;          /* Optional: keeps pointer as hand on hover */
   padding: 0;               /* Remove padding */
   margin: 0;
+  font-size: 5em;
 }
 
 /* Optional: Add underline or hover effect to make it "clickable" */
