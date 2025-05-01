@@ -138,7 +138,7 @@ h3:hover::after {
 } */
 
 body {
-  /*font-family: 'Comic Sans MS', 'Comic Sans', cursive;*/
+  font-family: 'JetBrains Mono', monospace;
   text-align: center;
   background-color: #f0f0f0;
   line-height: 1.6;
