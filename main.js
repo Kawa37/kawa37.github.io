@@ -16,6 +16,9 @@ document.getElementById('b').addEventListener('click', function() {
 
   clickCount ++;
 
+  if (clickCount ===4){
+    document.getElementById('p').textContent = "Are You Sure";
+  }
   if (clickCount === 5) {
         window.open('https://youtu.be/IrHTT2IEKpE?si=oMgMjL6sF3CTWJj9', '_blank'); // Replace with your desired URL
         clickCount = 0; // Optional: reset counter after opening site
