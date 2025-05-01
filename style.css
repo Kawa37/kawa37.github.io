@@ -1,15 +1,28 @@
 body {
   margin: 0;
   min-height: 100vh;
-
-  /* Flexbox centering */
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* Optional styling */
   font-family: 'JetBrains Mono', monospace;
   font-size: 3em;
   background-color: #1e1e1e;
   color: white;
+}
+
+/* Style the button to look like text */
+button#b {
+  background: none;         /* Remove background */
+  border: none;             /* Remove borders */
+  color: inherit;           /* Inherit text color from body */
+  font: inherit;            /* Inherit font from body */
+  cursor: pointer;          /* Optional: keeps pointer as hand on hover */
+  padding: 0;               /* Remove padding */
+  margin: 0;
+}
+
+/* Optional: Add underline or hover effect to make it "clickable" */
+button#b:hover {
+  text-decoration: underline;
+  opacity: 0.8;
 }
