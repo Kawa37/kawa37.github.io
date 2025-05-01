@@ -8,8 +8,14 @@ function getRandomColor() {
   return `rgb(${r}, ${g}, ${b})`;
 }
 
+let clickCount = 0;
 
 
 document.getElementById('b').addEventListener('click', function() {
   document.body.style.backgroundColor = getRandomColor();
+
+  if (clickCount === 5) {
+        window.open('https://example.com', '_blank'); // Replace with your desired URL
+        clickCount = 0; // Optional: reset counter after opening site
+  }
 });
