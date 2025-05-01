@@ -22,6 +22,6 @@ document.getElementById('b').addEventListener('click', function() {
   if (clickCount === 5) {
         window.open("https://youtu.be/ubFq-wV3Eic?si=YA5pIY8AtTdFtpcQ", '_blank'); // Replace with your desired URL
         clickCount = 0; // Optional: reset counter after opening site
-        document.getElementById('p').textContent = null;
+        document.getElementById('p').textContent = '';
   }
 });
