@@ -149,3 +149,74 @@ body {
   margin: 2rem auto;
   max-width: 600px;
 }
+/* style.css */
+
+/* Reset some defaults */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  font-size: 16px;
+}
+
+h1 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #2d2d2d;
+  color: white;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #0f7cf5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005ecc;
+}
+
+#res {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+#stat {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #888;
+}
+#res {
+  font-family: 'JetBrains Mono', monospace;
+}
