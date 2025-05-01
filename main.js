@@ -17,7 +17,7 @@ document.getElementById('b').addEventListener('click', function() {
   clickCount ++;
 
   if (clickCount === 5) {
-        window.open('https://youtube.com', '_blank'); // Replace with your desired URL
+        window.open('https://youtu.be/IrHTT2IEKpE?si=oMgMjL6sF3CTWJj9', '_blank'); // Replace with your desired URL
         clickCount = 0; // Optional: reset counter after opening site
   }
 });
