@@ -15,7 +15,7 @@ document.getElementById('b').addEventListener('click', function() {
   document.body.style.backgroundColor = getRandomColor();
 
   if (clickCount === 5) {
-        window.open('https://example.com', '_blank'); // Replace with your desired URL
+        window.open('https://youtube.com', '_blank'); // Replace with your desired URL
         clickCount = 0; // Optional: reset counter after opening site
   }
 });
