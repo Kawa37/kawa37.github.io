@@ -14,6 +14,8 @@ let clickCount = 0;
 document.getElementById('b').addEventListener('click', function() {
   document.body.style.backgroundColor = getRandomColor();
 
+  clickCount ++;
+
   if (clickCount === 5) {
         window.open('https://youtube.com', '_blank'); // Replace with your desired URL
         clickCount = 0; // Optional: reset counter after opening site
