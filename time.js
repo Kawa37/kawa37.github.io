@@ -1,20 +1,34 @@
-function appendToDisplay(value) {
-  document.getElementById('display').value += value;
+function calculateTimeDifference(dateStr) {
+    const currentTime = new Date();
+    const [day, month, year] = dateStr.split('-').map(Number);
+    const inputTime = new Date(year, month - 1, day);
+    
+    let delta;
+    if (currentTime > inputTime) {
+        console.log("    Past");
+        delta = new Date(currentTime - inputTime);
+    } else {
+        console.log("    Future");
+        delta = new Date(inputTime - currentTime);
+    }
+    
+    const years = Math.floor(delta / (1000 * 60 * 60 * 24 * 365));
+    const remainingDays = Math.floor(delta / (1000 * 60 * 60 * 24)) % 365;
+    const months = Math.floor(remainingDays / 30);
+    const days = remainingDays % 30;
+    const hours = Math.floor((delta % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((delta % (1000 * 60 * 60)) / (1000 * 60));
+    
+    console.log(` years: ${years}\n months: ${months}\n days: ${days}\n hours: ${hours}\n minutes: ${minutes}`);
 }
 
-function clearDisplay() {
-  document.getElementById('display').value = '';
+function startInputLoop() {
+    const input = prompt("(dd-mm-yyyy): ");
+    if (input) {
+        calculateTimeDifference(input);
+        console.log("");
+        setTimeout(startInputLoop, 0); // Continue the loop
+    }
 }
 
-function calculate() {
-  try {
-    const result = eval(document.getElementById('display').value);
-    document.getElementById('display').value = result;
-  } catch (error) {
-    document.getElementById('display').value = 'Error';
-  }
-}
-
-document.getElementById('backBtn').addEventListener('click', function() {
-  window.location.href = 'https://kawa37.github.io/'; // Navigates back to home
-});
+startInputLoop();
