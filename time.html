@@ -8,9 +8,14 @@
   <link rel="stylesheet" href="style.css"> <!-- Reuse existing CSS -->
 </head>
 <body>
-  <h1>Time</h1>
+    
+    <div class="container">
+        <h2>Time Difference Calculator</h2>
+        <input type="text" id="dateInput" placeholder="dd-mm-yyyy" pattern="\d{2}-\d{2}-\d{4}">
+        <button onclick="handleCalculate()">Calculate</button>
+        <div id="result"></div>
+    </div>
 
-    <input id='timeinput' >
   <script src="time.js"></script>
 </body>
 </html>
