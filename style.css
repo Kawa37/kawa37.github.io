@@ -75,9 +75,14 @@ display: inline-block;
 #timeBtn {
   background-color: transparent;
   border: 2px solid white;
-  color: white; /* Optional: adjust text color */
+  color: white;
   text-decoration: underline;
-  padding: 10px 20px;
+  padding: 12px 32px; /* Adjusted for better sizing */
+  font-size: 18px; /* Match your main font size */
+  font-family: inherit; /* Use the same font as other elements */
   cursor: pointer;
+  display: inline-block;
+  box-sizing: border-box;
 }
+
 
