@@ -1,0 +1,57 @@
+function calculateTimeDifference(dateStr) {
+  // Get current time
+  const currentTime = new Date();
+  
+  // Parse input date (dd-mm-yyyy)
+  const [day, month, year] = dateStr.split('-').map(Number);
+  const inputTime = new Date(year, month - 1, day); // Month is 0-based in JS
+  
+  // Validate input date
+  if (isNaN(inputTime)) {
+    console.log('Invalid date format. Please use dd-mm-yyyy.');
+    return;
+  }
+  
+  // Calculate difference
+  let deltaMs;
+  let isPast;
+  if (currentTime > inputTime) {
+    deltaMs = currentTime - inputTime;
+    console.log('    Past');
+    isPast = true;
+  } else {
+    deltaMs = inputTime - currentTime;
+    console.log('    Future');
+    isPast = false;
+  }
+  
+  // Convert milliseconds to days, hours, minutes
+  const daysTotal = Math.floor(deltaMs / (1000 * 60 * 60 * 24));
+  const years = Math.floor(daysTotal / 365);
+  const months = Math.floor((daysTotal % 365) / 30);
+  const days = (daysTotal % 365) % 30;
+  
+  const secondsTotal = Math.floor(deltaMs / 1000);
+  const hours = Math.floor((secondsTotal % (24 * 3600)) / 3600);
+  const minutes = Math.floor((secondsTotal % 3600) / 60);
+  
+  // Output results
+  console.log(` years: ${years}\n months: ${months}\n days: ${days}\n hours: ${hours}\n minutes: ${minutes}`);
+}
+
+// Main loop
+function main() {
+  while (true) {
+    const userInput = prompt('(dd-mm-yyyy):');
+    // Exit if user cancels or enters empty string
+    if (userInput === null || userInput.trim() === '') {
+      console.log('Exiting...');
+      break;
+    }
+    calculateTimeDifference(userInput);
+    console.log(''); // Empty line for readability
+  }
+}
+
+// Run the main function
+main();
