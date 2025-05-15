@@ -89,6 +89,7 @@ display: inline-block;
 
 #calcBtn {
   background-color: transparent !important;
+  border: none !important;
   color: white !important;
   text-decoration: underline !important;
   padding: 12px 24px !important;
