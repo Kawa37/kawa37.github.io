@@ -20,7 +20,7 @@ document.getElementById('b').addEventListener('click', function() {
     document.getElementById('p').textContent = "Are You Sure";
   }
   if (clickCount === 5) {
-        window.open("https://youtu.be/ubFq-wV3Eic?si=YA5pIY8AtTdFtpcQ", '_blank'); // Replace with your desired URL
+        window.open("https://youtu.be/VQbPmP05qPA?si=Qmx-dPDb6Vv8qQ74", '_blank'); // Replace with your desired URL
         clickCount = 0; // Optional: reset counter after opening site
         document.getElementById('p').textContent = '';
   }
