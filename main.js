@@ -25,3 +25,8 @@ document.getElementById('b').addEventListener('click', function() {
         document.getElementById('p').textContent = '';
   }
 });
+
+document.getElementById('timeBtn').addEventListener('click', function() {
+  window.location.href = 'https://kawa37.github.io/time'; // Navigates to the time page
+  // Alternatively, use window.open('https://kawa37.github.io/time', '_blank') to open in a new tab
+});
