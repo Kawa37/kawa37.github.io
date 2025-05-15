@@ -1,10 +1,8 @@
 function getRandomColor() {
-  // Generate random RGB values
   const r = Math.floor(Math.random() * 256);
   const g = Math.floor(Math.random() * 256);
   const b = Math.floor(Math.random() * 256);
 
-  // Return as RGB string
   return `rgb(${r}, ${g}, ${b})`;
 }
 
@@ -21,12 +19,11 @@ document.getElementById('b').addEventListener('click', function() {
   }
   if (clickCount === 5) {
         window.open("https://youtu.be/VQbPmP05qPA?si=Qmx-dPDb6Vv8qQ74", '_blank'); // Replace with your desired URL
-        clickCount = 0; // Optional: reset counter after opening site
+        clickCount = 0;
         document.getElementById('p').textContent = '';
   }
 });
 
 document.getElementById('timeBtn').addEventListener('click', function() {
   window.location.href = 'https://kawa37.github.io/time'; // Navigates to the time page
-  // Alternatively, use window.open('https://kawa37.github.io/time', '_blank') to open in a new tab
 });
