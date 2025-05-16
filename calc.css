@@ -11,7 +11,7 @@ body {
 
 h1{
     background-color: transparent;
-    color: #AAFF00;
+    color: #2C786C;
 }
 
 
@@ -28,7 +28,7 @@ div > * {
 
 #b {
   background-color: transparent !important;
-  border: 2px solid #BF00FF  !important;
+  border: 2px solid #FF6B6B  !important;
   color: #FFFFFF !important;
   text-decoration: underline !important;
   padding: 12px 24px !important;
@@ -42,7 +42,7 @@ div > * {
 }
 
 res{
-    color:#FFFF33;
+    color:#3C2A4D;
 }
 /*result color#FFFF33*/
 
@@ -50,7 +50,7 @@ h3 {
  
   background-color: transparent !important;
   border: none !important;
-  color: #00FFFF !important;
+  color: #3E54AC !important;
   text-decoration: underline !important;
   padding: 12px 24px !important;
   font-size: 18px !important;
