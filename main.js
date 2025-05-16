@@ -27,3 +27,7 @@ document.getElementById('b').addEventListener('click', function() {
 document.getElementById('timeBtn').addEventListener('click', function() {
   window.location.href = 'https://kawa37.github.io/time'; // Navigates to the time page
 });
+
+document.getElementById('calcBtn').addEventListener('click', function() {
+  window.location.href = 'https://kawa37.github.io/pwd-generator'; // Navigates to the time page
+});
