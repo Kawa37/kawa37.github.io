@@ -14,10 +14,6 @@ h1{
     color: #00A36C;
 }
 
-h3{
-    background-color: transparent;
-    color: #32CD32;
-}
 
 div {
     display: flex;
@@ -33,7 +29,7 @@ div > * {
 #b {
   background-color: transparent !important;
   border: 2px solid white !important;
-  color: white !important;
+  color: #32CD32 !important;
   text-decoration: underline !important;
   padding: 12px 24px !important;
   font-size: 18px !important;
