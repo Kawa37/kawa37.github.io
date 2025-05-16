@@ -22,7 +22,7 @@ div > * {
 
 #b {
   background-color: transparent !important;
-  border: none !important;
+  border: 2px solid white !important;
   color: white !important;
   text-decoration: underline !important;
   padding: 12px 24px !important;
