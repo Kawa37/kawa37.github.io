@@ -28,7 +28,7 @@ div > * {
 
 #b {
   background-color: transparent !important;
-  border: 2px solid white !important;
+  border: 2px solid #32CD32  !important;
   color: #32CD32 !important;
   text-decoration: underline !important;
   padding: 12px 24px !important;
