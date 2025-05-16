@@ -11,7 +11,7 @@ body {
 
 h1{
     background-color: transparent;
-    color: #2C786C;
+    color: #5C6BC0;
 }
 
 
@@ -28,7 +28,7 @@ div > * {
 
 #b {
   background-color: transparent !important;
-  border: 2px solid #FF6B6B  !important;
+  border: 2px solid #5C6BC0  !important;
   color: #FFFFFF !important;
   text-decoration: underline !important;
   padding: 12px 24px !important;
@@ -41,8 +41,12 @@ div > * {
   display: inline-block;
 }
 
+button:hover {
+  color: #3F51B5;
+}
+
 #res{
-    color:#3C2A4D;
+    color:#7986CB;
 }
 /*result color#FFFF33*/
 
@@ -50,7 +54,7 @@ h3 {
  
   background-color: transparent !important;
   border: none !important;
-  color: #3E54AC !important;
+  color: #7986CB !important;
   text-decoration: underline !important;
   padding: 12px 24px !important;
   font-size: 18px !important;
