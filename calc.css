@@ -4,6 +4,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #1e1e1e;
 }
 
 div {
