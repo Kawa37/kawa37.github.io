@@ -41,6 +41,9 @@ div > * {
   display: inline-block;
 }
 
+res{
+    color:#FFFF33;
+}
 /*result color#FFFF33*/
 
 h3 {
