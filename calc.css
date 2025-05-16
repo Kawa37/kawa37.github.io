@@ -5,47 +5,6 @@
 }
 
 
-#b {
-  
-  background: linear-gradient(to bottom, #4CAF50, #45a049);
-  border: none;
-  border-radius: 12px;
-  padding: 8px 24px;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-  position: relative;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  transition: all 0.3s ease;
-  height: auto;
-}
-
-#b:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
-}
-
-#b:active {
-  transform: translateY(1px);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-#b::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 3px;
-  background: white;
-  transition: all 0.3s ease;
-  transform: translateX(-50%);
-}
-
-#b:hover::after {
-  width: 100%;
-}
-
 
 
 input[type="text"] {
@@ -68,33 +27,9 @@ input[type="text"]:hover {
   background: white;
 }
 
-#b {
-  margin-top: 20px;
-  padding: 14px 28px;
-  background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
-  border: none;
-  border-radius: 10px;
-  color: white;
-  font-size: 18px;
-  font-weight: 600;
-  cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  transition: all 0.3s cubic-bezier(0.3, 0, 0.5, 1);
-  position: relative;
-  overflow: hidden;
-}
 
-#b:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 8px rgba(0,0,0,0.2);
-}
 
-#b:active {
-  transform: translateY(1px);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-#calcBtn {
+h3 {
   background-color: transparent !important;
   border: none !important;
   color: white !important;
