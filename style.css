@@ -102,3 +102,7 @@ display: inline-block;
   margin: 10px 0;
   display: inline-block;
 }
+
+#timeTitle{
+  color: #00FF00;
+}
