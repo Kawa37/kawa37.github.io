@@ -28,8 +28,8 @@ div > * {
 
 #b {
   background-color: transparent !important;
-  border: 2px solid white  !important;
-  color: white !important;
+  border: 2px solid #BF00FF  !important;
+  color: #FFFFFF !important;
   text-decoration: underline !important;
   padding: 12px 24px !important;
   font-size: 18px !important;
@@ -41,11 +41,13 @@ div > * {
   display: inline-block;
 }
 
+/*result color#FFFF33*/
+
 h3 {
  
   background-color: transparent !important;
   border: none !important;
-  color: #00FF7F !important;
+  color: #00FFFF !important;
   text-decoration: underline !important;
   padding: 12px 24px !important;
   font-size: 18px !important;
