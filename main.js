@@ -9,7 +9,7 @@ function getRandomColor() {
 let clickCount = 0;
 
 
-document.getElementById('b').addEventListener('click', function() {
+document.getElementById('kawa').addEventListener('click', function() {
   document.body.style.backgroundColor = getRandomColor();
 
   clickCount ++;
