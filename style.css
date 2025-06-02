@@ -78,7 +78,7 @@ font-size: 24px;
   background-color: transparent !important;
   border: 2px solid white !important;
   color: white !important;
-  text-decoration: underline !important;
+  /*text-decoration: underline !important;*/
   padding: 12px 24px !important;
   font-size: 18px !important;
   font-family: inherit;
@@ -93,7 +93,7 @@ font-size: 24px;
   background-color: transparent !important;
   border: 2px solid white !important;
   color: white !important;
-  text-decoration: underline !important;
+  /*text-decoration: underline !important;*/
   padding: 12px 24px !important;
   font-size: 18px !important;
   font-family: inherit;
