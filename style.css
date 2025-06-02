@@ -16,9 +16,7 @@ body {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  /*align-items: center;*/
-  align-items: flex-start;
+  align-items: center;
 }
 
 #kawa {
@@ -57,9 +55,7 @@ button#b {
 .container {
 max-width: 400px;
 margin: 0 auto;
-/*text-align: center;*/
-align-items: flex-start;
-justify-content: center;
+text-align: center;
 }
 input {
 padding: 8px;
