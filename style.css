@@ -29,7 +29,7 @@ body {
 
   color: inherit;
   font-family: 'JetBrains Mono', monospace;
-  font-size: calc(1.5em + 1vw); /* Responsive font size */
+  /*font-size: calc(1.5em + 1vw); Responsive font size */
   cursor: pointer;
   padding: 0;
   margin: 0;
