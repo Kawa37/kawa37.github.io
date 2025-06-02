@@ -56,6 +56,7 @@ button#b {
 max-width: 400px;
 margin: 0 auto;
 text-align: center;
+align-items: flex-start;
 }
 input {
 padding: 8px;
