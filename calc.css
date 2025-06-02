@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     justify-content: center;
@@ -64,4 +65,9 @@ h3 {
   outline: none;
   margin: 10px 0;
   display: inline-block;
+}
+
+
+input {
+    font-size: 45;
 }
