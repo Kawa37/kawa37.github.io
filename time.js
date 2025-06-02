@@ -12,10 +12,10 @@ function calculateTimeDifference(dateStr) {
             let delta;
             let period;
             if (currentTime > inputTime) {
-                period = "Past";
+                period = "In The Past";
                 delta = new Date(currentTime - inputTime);
             } else {
-                period = "Future";
+                period = "In The Future";
                 delta = new Date(inputTime - currentTime);
             }
 
