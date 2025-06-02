@@ -17,11 +17,11 @@ document.getElementById('kawa').addEventListener('click', function() {
   //if (clickCount ===4){
    // document.getElementById('p').textContent = "Are You Sure";
   //}
-  if (clickCount === 10) {
-        window.open("https://youtu.be/VQbPmP05qPA?si=Qmx-dPDb6Vv8qQ74", '_blank'); // Replace with your desired URL
-        clickCount = 0;
-        document.getElementById('p').textContent = '';
-  }
+  //if (clickCount === 10) {
+  //      window.open("https://youtu.be/VQbPmP05qPA?si=Qmx-dPDb6Vv8qQ74", '_blank'); // Replace with your desired URL
+  //      clickCount = 0;
+  //      document.getElementById('p').textContent = '';
+  //}
 });
 
 document.getElementById('timeBtn').addEventListener('click', function() {
