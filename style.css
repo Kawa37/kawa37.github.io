@@ -28,6 +28,7 @@ body {
   border:none;
 
   color: inherit;
+  font-weight: bold;
   font-family: 'JetBrains Mono', monospace;
   /*font-size: calc(1.5em + 1vw); Responsive font size */
   cursor: pointer;
