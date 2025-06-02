@@ -38,7 +38,7 @@ function main(){
         // if the length is a number and the others are empty
         }else if ( lenStr !== '' && lettersStr == '' && numsStr == "" && symStr == '' ){
             if (isNaN(lenStr)){
-                res.textContent = 'Make sure the len is a num';
+                res.textContent = 'Make sure the length is a number';
                 return;
             }else{
                 len = Number(lenStr);
