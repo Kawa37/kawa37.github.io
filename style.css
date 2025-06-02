@@ -52,7 +52,7 @@ button#b {
 /* Responsive adjustments for small screens */
 @media (max-width: 600px) {
   #kawa {
-    font-size: calc(1.5em + 1vw);
+    font-size: calc(2em + 1vw);
     margin-bottom: 15px;
   }
 
