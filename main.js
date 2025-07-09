@@ -6,6 +6,13 @@ function getRandomColor() {
   return `rgb(${r}, ${g}, ${b})`;
 }
 
+function showImage() {
+  document.getElementById('secretImg').style.display = 'block';
+}
+function hideImage() {
+  document.getElementById('secretImg').style.display = 'none';
+}
+
 let clickCount = 0;
 
 
