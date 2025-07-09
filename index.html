@@ -29,6 +29,12 @@
     <button id="calcBtn">Password Generator</button>
   </div>
 
+  <button id="secretBtn" onclick="showImage()" style="position:fixed; bottom:0; right:0; width:10px; height:10px; opacity:0; z-index:9999;"></button>
+
+  <div id="secretImg" onclick="hideImage()" style="display:none; position:fixed; top:10%; left:10%; width:80%; height:80%; background:black;">
+    <img src="Code.jpg" style="width:100%; height:100%; object-fit:contain;">
+  </div>
+
   <script src="main.js"></script>
 </body>
 </html>
