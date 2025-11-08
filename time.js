@@ -26,7 +26,7 @@ function calculateTimeDifference(dateStr) {
             const hours = Math.floor((delta % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             const minutes = Math.floor((delta % (1000 * 60 * 60)) / (1000 * 60));
 
-            return `\n years: ${years}\n months: ${months}\n days: ${days}\n hours: ${hours}\n minutes: ${minutes} \n ${period}`;
+            return `\n years: ${years}\n months: ${months}\n days: ${days}\n hours: ${hours}\n minutes: ${minutes} \n\n ${period}`;
         }
 
         function handleCalculate() {
