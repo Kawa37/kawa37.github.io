@@ -12,10 +12,10 @@ function calculateTimeDifference(dateStr) {
             let delta;
             let period;
             if (currentTime > inputTime) {
-                period = "Before";
+                period = "Ago";
                 delta = new Date(currentTime - inputTime);
             } else {
-                period = "After";
+                period = "In The Future";
                 delta = new Date(inputTime - currentTime);
             }
 
@@ -26,7 +26,7 @@ function calculateTimeDifference(dateStr) {
             const hours = Math.floor((delta % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             const minutes = Math.floor((delta % (1000 * 60 * 60)) / (1000 * 60));
 
-            return `${period}\n years: ${years}\n months: ${months}\n days: ${days}\n hours: ${hours}\n minutes: ${minutes}`;
+            return `\n years: ${years}\n months: ${months}\n days: ${days}\n hours: ${hours}\n minutes: ${minutes} \n ${period}`;
         }
 
         function handleCalculate() {
