@@ -11,7 +11,8 @@ for (let i = 0;i<randomWord.length;i++){
 
 spacesDisplay.textContent = spaces.join(' ')
 
-let tries = 5
+let tries = 7
+document.getElementById('tries').textContent = `Tries: ${tries}`
 
 document.getElementById('guessBtn').addEventListener('click', function() {
     if (guessBtn.textContent === 'Reset'){
@@ -47,3 +48,4 @@ document.getElementById('guessBtn').addEventListener('click', function() {
     }
     document.getElementById('input').value = '';
 });
+
