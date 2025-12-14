@@ -35,6 +35,7 @@ document.getElementById('guessBtn').addEventListener('click', function() {
             tries --;
             document.getElementById('tries').textContent = `Tries: ${tries}`
         }
+        if (tries <=0){break}
     }
     spacesDisplay.textContent = spaces.join(' ')
     if (!spaces.includes('_')){
@@ -48,5 +49,6 @@ document.getElementById('guessBtn').addEventListener('click', function() {
     }
     document.getElementById('input').value = '';
 });
+
 
 
