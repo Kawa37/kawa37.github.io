@@ -1,5 +1,5 @@
 let spacesDisplay = document.getElementById('spaces')
-let words = ['bread','joke','hot','kawa','arin','elephant','dog','samsung','clock','sugar','pen','ball','mobile','you','rabbit','monkey','donkey','spiderman' ,'iphone','sewsen','ahmed','nan','fog','and','all','second','house','water','okay','mother',"father",'brother','sister']
+let words = ['bread','joke','hot','elephant','dog','samsung','clock','sugar','pen','ball','mobile','you','rabbit','monkey','donkey','spiderman' ,'iphone','fog','second','house','water','okay','mother',"father",'brother','sister']
 let guessBtn = document.getElementById('guessBtn')
 
 let randomWord = words[Math.floor(Math.random()*words.length)]
@@ -48,4 +48,5 @@ document.getElementById('guessBtn').addEventListener('click', function() {
     }
     document.getElementById('input').value = '';
 });
+
 
