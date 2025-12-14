@@ -1,0 +1,36 @@
+body {
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    color: white;
+    background-color: #1e1e1e; 
+    line-height: 1.6;
+    
+    display: flex;               /* make body a flex container */
+    flex-direction: column;      /* stack elements vertically */
+    /*justify-content: center;     /* center vertically (optional) */
+    align-items: center;         /* center horizontally */
+    
+    min-height: 100vh;           /* full height for vertical centering */
+    margin: 0;                   /* remove default margins */
+    padding: 20px;
+}
+
+#input, #guessBtn {
+    display: block;              /* ensures they stack */
+    margin: 10px 0;
+}
+
+#guessBtn {
+  background-color: transparent !important;
+  border: 2px solid white !important;
+  color: white !important;
+  /*text-decoration: underline !important;*/
+  padding: 12px 24px !important;
+  font-size: 18px !important;
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  margin: 10px 0;
+  display: inline-block;
+}
