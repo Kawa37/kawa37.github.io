@@ -26,7 +26,7 @@ body {
   color: white !important;
   /*text-decoration: underline !important;*/
   padding: 12px 24px !important;
-  font-size: 18px !important;
+  font-size: 20px !important;
   font-family: inherit;
   font-weight: bold;
   cursor: pointer;
@@ -45,3 +45,4 @@ input {
 #shanqman{
     font-size: calc(2em + 1vw);
 }
+
