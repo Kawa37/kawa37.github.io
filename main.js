@@ -38,3 +38,6 @@ document.getElementById('timeBtn').addEventListener('click', function() {
 document.getElementById('calcBtn').addEventListener('click', function() {
   window.location.href = 'https://kawa37.github.io/calc'; // Navigates to the time page
 });
+document.getElementById('shanqBtn').addEventListener('click', function() {
+  window.location.href = 'https://kawa37.github.io/shanqman'; // Navigates to the time page
+});
