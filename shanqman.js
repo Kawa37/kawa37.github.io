@@ -1,5 +1,14 @@
 let spacesDisplay = document.getElementById('spaces')
-let words = ['bread','joke','hot','elephant','dog','samsung','clock','sugar','pen','ball','mobile','you','rabbit','monkey','donkey','spiderman' ,'iphone','fog','second','house','water','okay','mother',"father",'brother','sister']
+let words = [
+    "apple", "banana", "cat", "dog", "house", "car", "tree", "water",
+    "fire", "earth", "air", "computer", "phone", "music", "light",
+    "dark", "happy", "sad", "fast", "slow", "smart", "strong",
+    "run", "walk", "think", "build", "create", "learn", "win", "lose",
+    "game", "work", "play", "sleep", "dream", "food", "drink",
+    "city", "road", "river", "mountain", "sky", "cloud",
+    "rain", "wind"
+]
+
 let guessBtn = document.getElementById('guessBtn')
 
 let randomWord = words[Math.floor(Math.random()*words.length)]
@@ -10,7 +19,7 @@ for (let i = 0;i<randomWord.length;i++){
 }
 
 spacesDisplay.textContent = spaces.join(' ')
-
+console.log('randomWord')
 let tries = 7
 document.getElementById('tries').textContent = `Tries: ${tries}`
 
@@ -49,6 +58,7 @@ document.getElementById('guessBtn').addEventListener('click', function() {
     }
     document.getElementById('input').value = '';
 });
+
 
 
 
