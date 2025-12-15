@@ -47,16 +47,17 @@ document.getElementById('guessBtn').addEventListener('click', function() {
     }
     spacesDisplay.textContent = spaces.join(' ')
     if (!spaces.includes('_')){
-        document.body.style.background = 'green';
+        document.body.style.background = '#5CFF5C';
         guessBtn.textContent = 'Reset'
     }
     if (tries <= 0){
-        document.body.style.background = 'red';
+        document.body.style.background = 'F54927';
         guessBtn.textContent = 'Reset'
         spacesDisplay.textContent = randomWord.split('').join(' ')
     }
     document.getElementById('input').value = '';
 });
+
 
 
 
