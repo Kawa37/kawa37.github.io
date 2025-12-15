@@ -19,7 +19,6 @@ for (let i = 0;i<randomWord.length;i++){
 }
 
 spacesDisplay.textContent = spaces.join(' ')
-console.log('randomWord')
 let tries = 7
 document.getElementById('tries').textContent = `Tries: ${tries}`
 
@@ -58,6 +57,7 @@ document.getElementById('guessBtn').addEventListener('click', function() {
     }
     document.getElementById('input').value = '';
 });
+
 
 
 
