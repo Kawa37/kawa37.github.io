@@ -18,14 +18,6 @@ for (let i = 0;i<randomWord.length;i++){
     spaces.push('_')
 }
 
-function getRandomColor() {
-  const r = Math.floor(Math.random() * 256);
-  const g = Math.floor(Math.random() * 256);
-  const b = Math.floor(Math.random() * 256);
-
-  return `rgb(${r}, ${g}, ${b})`;
-}
-document.body.style.backgroundColor = getRandomColor();
 spacesDisplay.textContent = spaces.join(' ')
 let tries = 7
 document.getElementById('tries').textContent = `Tries: ${tries}`
@@ -65,6 +57,7 @@ document.getElementById('guessBtn').addEventListener('click', function() {
     }
     document.getElementById('input').value = '';
 });
+
 
 
 
