@@ -135,8 +135,13 @@ font-size: 24px;
   color: #00FF00;
 }
 
+#secretBtn {
+  cursor: default;
+}
+
 input {
     font-size: 24px;
     width: 200px;
 }
+
 
