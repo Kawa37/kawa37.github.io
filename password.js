@@ -51,3 +51,8 @@ document.addEventListener('DOMContentLoaded', () => {
     res.textContent = generate(len);
   };
 });
+
+document.getElementById("backBtn").addEventListener('click',function (){
+    window.location.href = 'https://kawa37.github.io/'
+})
+
