@@ -145,4 +145,19 @@ input {
 }
 
 
+#backBtn {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  padding: 8px 14px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+  font-weight: bold;
+  font-family: 'JetBrains Mono', monospace;
+  cursor: pointer;
+  font-size: 24px;
+}
 
