@@ -59,10 +59,6 @@ document.getElementById('guessBtn').addEventListener('click', function() {
 });
 
 
-
-
-
-
-
-
-
+document.getElementById("backBtn").addEventListener('click',function (){
+    window.location.href = 'https://kawa37.github.io/'
+})
