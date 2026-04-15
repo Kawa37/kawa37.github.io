@@ -32,18 +32,18 @@ document.getElementById('kawa').addEventListener('click', function() {
 });
 
 document.getElementById('timeBtn').addEventListener('click', function() {
-  window.location.href = 'https://kawa37.github.io/time'; // Navigates to the time page
+  window.location.href = 'https://kawa37.github.io/time/time'; // Navigates to the time page
 });
 
 document.getElementById('calcBtn').addEventListener('click', function() {
-  window.location.href = 'https://kawa37.github.io/password'; // Navigates to the time page
+  window.location.href = 'https://kawa37.github.io/password/password'; // Navigates to the time page
 });
 document.getElementById('shanqBtn').addEventListener('click', function() {
-  window.location.href = 'https://kawa37.github.io/shanqman'; // Navigates to the time page
+  window.location.href = 'https://kawa37.github.io/shanqman/shanqman'; // Navigates to the time page
 });
 
 document.getElementById('clickBtn').addEventListener('click', function() {
-  window.location.href = 'https://kawa37.github.io/clicker'; // Navigates to the time page
+  window.location.href = 'https://kawa37.github.io/clicker/clicker'; // Navigates to the time page
 });
 
 
